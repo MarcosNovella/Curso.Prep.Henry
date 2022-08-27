@@ -1,7 +1,7 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'holis';
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 22;
@@ -62,7 +62,8 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {return true;
+  if (x == y) {
+    return true;
   }
   return false;
 
@@ -72,7 +73,12 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  return str1.length === str2.length;
+  if(str1.length === str2.length){
+    return true;
+  }else{
+    return false;
+  }
+
 }
 
 function menosQueNoventa(num) {
@@ -88,7 +94,8 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {return true;
+  if (num > 50) {
+    return true;
   }
   return false;
 }
@@ -104,7 +111,7 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 0) {
-    return true
+    return true;
   } else {
     return false;
   }
@@ -115,7 +122,7 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 > 0 ) {
-    return true
+    return true;
   } else {
     return false;
   }
